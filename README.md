@@ -1,66 +1,23 @@
-## Foundry
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Foundry](https://img.shields.io/badge/Built%20with-Foundry-FFDB1C.svg)
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+##Project Title: WETH Smart Contract (Foundry)
 
-Foundry consists of:
+#Description:
+A simple and efficient implementation of Wrapped Ether (WETH) following the ERC-20 standard. This project was developed and tested using the Foundry framework and deployed on the Ethereum Sepolia Testnet.
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+#Features:
 
-## Documentation
+Minting: Deposit native ETH to receive an equivalent amount of WETH.
 
-https://book.getfoundry.sh/
+Burning: Burn WETH tokens to withdraw native ETH back to your wallet.
 
-## Usage
+ERC-20 Compliant: Full support for transfers, allowances, and balances.
 
-### Build
+Live Deployment:
 
-```shell
-$ forge build
-```
+Network: Sepolia Testnet
 
-### Test
+Contract Address: 0x9143646D1b834D742A0E3A56bA42Ce19ba9fC7f5
 
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Etherscan: View on Etherscan
