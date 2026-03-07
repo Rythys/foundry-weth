@@ -1,23 +1,36 @@
+# 🪙 WETH Smart Contract (Foundry)
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Foundry](https://img.shields.io/badge/Built%20with-Foundry-FFDB1C.svg)
+![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.13-blue)
 
-##Project Title: WETH Smart Contract (Foundry)
+A standard, secure implementation of **Wrapped Ether (WETH)** based on the ERC-20 interface. Developed as part of a university project at **MSU Mech-Mat**, this contract allows users to seamlessly wrap and unwrap their Ether in a decentralized manner.
 
-#Description:
-A simple and efficient implementation of Wrapped Ether (WETH) following the ERC-20 standard. This project was developed and tested using the Foundry framework and deployed on the Ethereum Sepolia Testnet.
+---
 
-#Features:
+## 🚀 Key Features
 
-Minting: Deposit native ETH to receive an equivalent amount of WETH.
+* **Minting (`deposit`)**: Send native ETH to the contract and receive an equivalent amount of WETH tokens (1:1 ratio).
+* **Burning (`withdraw`)**: Burn your WETH tokens to unlock and receive native ETH back to your wallet.
+* **ERC-20 Standard**: Includes all standard functions such as `transfer`, `approve`, and `transferFrom`.
+* **Automated Minting**: Supports direct ETH transfers via the `receive()` function.
 
-Burning: Burn WETH tokens to withdraw native ETH back to your wallet.
+---
 
-ERC-20 Compliant: Full support for transfers, allowances, and balances.
+## 🏗 Technical Stack
 
-Live Deployment:
+* **Language**: Solidity ^0.8.13
+* **Framework**: [Foundry](https://book.getfoundry.sh/)
+* **Environment**: WSL (Ubuntu)
+* **Network**: Ethereum Sepolia Testnet
 
-Network: Sepolia Testnet
+---
 
-Contract Address: 0x9143646D1b834D742A0E3A56bA42Ce19ba9fC7f5
+## 🧪 Testing & Verification
 
-Etherscan: View on Etherscan
+The contract has been thoroughly tested and verified.
+
+### Running Tests Locally
+To run the automated test suite:
+```bash
+forge test
