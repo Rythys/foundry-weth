@@ -7,6 +7,23 @@
 A standard, secure implementation of **Wrapped Ether (WETH)** based on the ERC-20 interface. Developed as part of a university project at **MSU Blockhain** course, this contract allows users to seamlessly wrap and unwrap their Ether in a decentralized manner.
 
 ---
+## 🚀 On-Chain Deployment
+
+The contract is officially deployed and **fully verified** on the Ethereum Sepolia Testnet. This allows for transparent interaction and source code auditing directly via the block explorer.
+
+| Specification | Details |
+| :--- | :--- |
+| **Network** | Ethereum Sepolia (Testnet) |
+| **Contract Address** | `0x9143646D1b834D742A0E3A56bA42Ce19ba9fC7f5` |
+| **Status** | ✅ Verified |
+| **Compiler** | Solidity ^0.8.13 |
+
+### 🔍 Explorer
+You can view the source code, check the ABI, and monitor transactions on Etherscan:
+
+[![Etherscan Badge](https://img.shields.io/badge/View_on-Etherscan-blue?style=for-the-badge&logo=ethereum)](https://sepolia.etherscan.io/address/0x9143646d1b834d742a0e3a56ba42ce19ba9fc7f5#code)
+
+---
 
 ## 🚀 Key Features
 
@@ -14,14 +31,6 @@ A standard, secure implementation of **Wrapped Ether (WETH)** based on the ERC-2
 * **Burn**: Burn your WETH tokens to unlock and receive native ETH back to your wallet.
 * **ERC-20 Standard**: Includes all standard functions such as `transfer`, `approve`, and `transferFrom`.
 * **Automated Mint**: Supports direct ETH transfers via the `receive()` function.
-
----
-
-## 🏗 Technical Stack
-
-* **Language**: Solidity ^0.8.13
-* **Framework**: [Foundry](https://book.getfoundry.sh/)
-* **Network**: Ethereum Sepolia Testnet
 
 ---
 
